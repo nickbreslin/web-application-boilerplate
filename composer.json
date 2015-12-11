@@ -1,0 +1,17 @@
+{
+    "name": "nickbreslin/ld48_32",
+    "description": "Ludum Dare: 32",
+    "require": {
+        "php": ">=5.3.0",
+        "monolog/monolog":"*",
+        "slim/slim": "2.*",
+        "twig/twig": "~1.0",
+        "sergeytsalkov/meekrodb": "*"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "2.*",
+        "phpdocumentor/phpdocumentor": "2.*",
+        "phpunit/phpunit": "5.0.*",
+        "phpunit/php-code-coverage": "^3"
+    }
+}
