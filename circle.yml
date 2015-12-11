@@ -1,0 +1,11 @@
+machine:
+  php:
+    version: 7.0.0RC7
+
+
+test:
+  override:
+    - mkdir tmp/
+    - ./vendor/phpunit/phpunit/phpunit tests/*
+    - cp tmp/* $CIRCLE_ARTIFACTS/
+    - cp tmp/* $CIRCLE_TEST_REPORTS/
