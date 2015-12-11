@@ -1,0 +1,8 @@
+{
+	"build": [
+        "../html/js/scripts.*"
+    ],
+    "docs": [
+        "docs/*"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "debug": {
+    	"options" : {
+    		"beautify": true
+    	},
+        "files": {
+            "../html/js/script.debug.js": [
+                "src/*.js"
+            ]
+        }
+    },
+    "minified": {
+    	"options": {
+            "mangle": true,
+            "compress": {
+                "screw_ie8": true,
+                "sequences": true,
+                "dead_code": true,
+                "conditionals": true,
+                "booleans": true,
+                "unused": true,
+                "if_return": true,
+                "join_vars": true,
+                "drop_console": true
+            }
+        },
+        "files": {
+            "../html/js/script.min.js": [
+                "src/*.js"
+            ]
+        }
+    }
+}

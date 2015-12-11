@@ -1,0 +1,13 @@
+{
+    "all": [
+    	"Gruntfile.js",
+    	"src/*.js",
+    	"!src/templates.js",
+    	"grunt/*",
+    	"tests/qunit/tests.js",
+    	"tests/dalek/tests.js"
+    ],
+    "options": {
+        "jshintrc": "grunt/jshintrc.json"
+    }
+}

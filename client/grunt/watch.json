@@ -1,0 +1,14 @@
+{
+    "js": {
+        "files": [
+            "<%= jshint.all %>"
+        ],
+        "tasks": ["jshint"]
+    },
+    "handlebars": {
+        "files": [
+            "<%= handlebars.src %>"
+        ],
+        "tasks": ["handlebars"]
+    }
+}

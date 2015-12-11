@@ -1,0 +1,8 @@
+{
+	"dist": {
+		"src": ["tests/dalek/tests.js"]
+	},
+	"options": {
+	    "reporter": ["console"]
+	}
+}

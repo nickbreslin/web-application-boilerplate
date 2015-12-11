@@ -1,0 +1,12 @@
+{
+    "compile": {
+        "options": {
+            "namespace": "JST"
+        },
+        "src": ["templates/*.handlebars"],
+        "dest": "src/templates.js",
+        "files": {
+            "<%= handlebars.dest %>" : "<%= handlebars.src %>"
+        }
+    }
+}

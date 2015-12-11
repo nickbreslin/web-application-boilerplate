@@ -3,3 +3,5 @@ sftp-config.json
 /vendor/
 composer.lock
 /node_modules/
+
+/client/src/templates.js

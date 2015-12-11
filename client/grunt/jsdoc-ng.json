@@ -1,0 +1,7 @@
+{
+	"basic" : {
+    "src": ["src/*.js", "README.md" ],
+    "dest": "docs/jsdocs-ng",
+    "template" : "jsdoc-ng"
+	}
+}
